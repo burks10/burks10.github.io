@@ -1,137 +1,119 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="semantic/dist/semantic.min.js"></script>
-    <title>Portfolio</title>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Skeleton: Responsive CSS Boilerplate</title>
+  <meta name="description" content="">
+  <meta name="author" content="Anthony Burkholder">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
 </head>
-
 <body>
-    <div class="ui bottom attached segment ">
 
-        <!-- Sidebar -->
-        <div class="ui thin visible left vertical inverted sidebar fixed menu ">
-            <h3 class="item ui inverted header">
-                Anthony Burkholder
-                <span class="blink"> _</span>
-                </h1>
-                <a class="item header" href="https://github.com/burks10" target="_blank">
-                    <i class="github alternate icon"></i> Code
-                </a>
-                <a class="item header" href="resume.pdf" target="_blank">
-                    <i class="file icon"></i> Resume
-                </a>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section hero">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h4 class="hero-heading">I'm a KW-based Computer Engineering student with a passion for hardware and software development.</h4>
+          <a class="button button-primary" href="resume.pdf" target="_blank">Resume</a>
+          <a class="button button-primary" href="https://www.github.com/burks10" target="_blank">Github</a>
         </div>
-
-        <!-- Content Area -->
-        <div style="marg-top:0em; padding-left:10.74em">
-          <!-- About Me Heading -->
-          <div  class="padded feature center aligned alternate ui stripe vertical segment">
-            <h1 style="font-size:2.8em"class="ui header center aligned">
-                Hello.
-                <div style="font-size:0.5em"class="sub header">I'm a KW-based Computer Engineering student with a <em>passion</em> for hardware and software development.</div>
-            </h1>
-            <button style="margin-right:1em" class="ui blue button">Resume</button>
-            <button style="margin-right:1em" class="ui blue button">Github</button>
-            <button style="margin-right:1em" class="ui blue button">LinkedIn</button>
-          </div>
-
-            <!-- About Me Heading -->
-            <div style="background-color:#F2F3F5" class="feature alternate ui stripe vertical segment">
-  <div class="ui three column center aligned divided relaxed stackable grid container">
-    <div class="row">
-      <h1 class="ui header">About Me</h1>
-
-    </div>
-    <div class="row">
-      <div class="column">
-        <h2 class="ui icon header">
-          Computer Engineering
-        </h2>
-        <p>Currently enrolled in Computer Engineering (B.Engg) at the University of Guelph with a focus in Software.</p>
-        <i class="huge laptop icon"></i>
-      </div>
-      <div class="column">
-        <h2 class="ui icon header">
-          Software/Web Development
-        </h2>
-        <p>Experince with several programming languages, including industry experience with C#/.NET</p>
-        <i class="huge code icon"></i>
-      </div>
-      <div class="column">
-        <h2 class="ui icon header">
-          Computer Hardware
-        </h2>
-        <p>
-          Keen interest in embedded systems design including Microcontrollers and FPGA's.
-        </p>
-        <i class="huge disk outline icon"></i>
-
+        <div class="one-half column phones">
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-            <div class="ui basic segment">
-                <h1 class="ui header">Projects</h1>
-                <div class="ui middle aligned divided list">
-                    <a class="left floated item">
-                      <span class="right floated content">
-                        <button class="ui blue button">Learn More</button>
-                      </span>
-                        <i class="right triangle icon"></i>
-                        <div class="content">
-                            <div class="header"><div class="ui teal horizontal label">In Progress</div>Unmanned Aircraft System</div>
-                            <div class="description">A semi-autonomous drone utilizing the new Udoo Neo development platform, OpenCV and Neural Networks.</div>
-                        </div>
-                    </a>
-                    <a class="left floated item">
-                      <span class="right floated content">
-                        <button class="ui blue button">Learn More</button>
-                      </span>
-                        <i class="right triangle icon"></i>
-                        <div class="content">
-                            <div class="header"><div class="ui teal horizontal label">In Progress</div>Nintendo 64 Cartridge Emulation</div>
-                            <div class="description">An FPGA implementation of Nintendo's N64 game cartridge utilizing the Digilent Nexys-3 Spartan 6 FPGA.</div>
-                        </div>
-                    </a>
-                    <a class="left floated item">
-                      <span class="right floated content">
-                        <button class="ui blue button">Learn More</button>
-                      </span>
-                        <i class="right triangle icon"></i>
-                        <div class="content">
-                            <div class="header"><div class="ui teal horizontal label">In Progress</div>Reverese Engineeering the Nintendo 64 Controller</div>
-                            <div class="description">A simple Assembly implementation utilizing Atmel's Atmega328p microcontroller to decode serial controller data.</div>
-                        </div>
-                    </a>
-                    <a class="left floated item">
-                      <span class="right floated content">
-                        <button class="ui blue button">Learn More</button>
-                      </span>
-                        <i class="right triangle icon"></i>
-                        <div class="content">
-                            <div class="header"><div class="ui blue horizontal label">Completed</div>Wearable Body-Temperature Sensor</div>
-                            <div class="description">A wearable Body-Temperature sensor designed utilizing 65nm CMOS technology.</div>
-                        </div>
-                    </a>
-                    <a class="left floated item">
-                      <span class="right floated content">
-                        <button class="ui blue button">Learn More</button>
-                      </span>
-                        <i class="right triangle icon"></i>
-                        <div class="content">
-                            <div class="header"><div class="ui blue horizontal label">Completed</div>Compsci Studio</div>
-                            <div class="description">My personal YouTube channel in which hosts several programming/computer realted tutorials.</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+  <div class="section values">
+    <div class="container">
+      <h3 style="margin-top:-4rem; padding-bottom:4rem" class="section-heading">About Me</h3>
+      <div class="row">
+        <div class="one-third column value">
+          <i class="fa fa-laptop fa-4x"></i>
+          <h5 class="value-heading">Computer Engineering</h5>
+          <p class="value-description">Fourth year student enrolled in Computer Engineering (B.Engg) at the University of Guelph.</p>
         </div>
+        <div class="one-third column value">
+          <i class="fa fa-terminal fa-4x"></i>
+          <h5 class="value-heading">Software and Web Development</h5>
+          <p class="value-description">Experience with several programming languages, including industry experience with C#/.NET.</p>
+        </div>
+        <div class="one-third column value">
+          <i class="fa fa-gamepad fa-4x"></i>
+          <h5 class="value-heading">Hardware Development</h5>
+          <p class="value-description">Keen interest in game console architecture and Microcontroller based development.</p>
+        </div>
+      </div>
     </div>
-</body>
+  </div>
 
+  <div class="section categories">
+    <div class="container">
+      <h3 class="section-heading">Personal Projects</h3>
+      <p class="section-description">Bellow are some of my personal software and hardware porjects I've been working on lately.</p>
+      <div class="row">
+        <div class="one-half column category">
+          <h5 class="value-heading">Unmanned Aircraft System</h5>
+          <img class="u-max-full-width" src="images/drone.jpg">
+        </div>
+        <div class="one-half column category">
+          <h5 class="value-heading">N64 Cartridge Emulation</h5>
+          <img class="u-max-full-width" src="images/cartridge.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="one-half column category">
+          <h5 class="value-heading">Gamecube to N64 Adapter</h5>
+          <img class="u-max-full-width" src="images/controller.png">
+        </div>
+        <div class="one-half column category">
+          <h5 class="value-heading">CMOS Body Temperature Sensor</h5>
+          <img class="u-max-full-width" src="images/temp_circuit.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="one-half column category">
+          <h5 class="value-heading">Compsci Studio</h5>
+          <img class="u-max-full-width" src="images/compscistudio.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>
