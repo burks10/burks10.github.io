@@ -1,9 +1,15 @@
 $(function(){
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
+    // Hide the mobile menu item by default (let the media query figure it out.)
     $(".mobile-menu-item").hide();
 
+    // Fade in middle content
+    $(".middle").addClass("animated fadeInUp").one(animationEnd, function() {
+        $(".middle").removeClass("animated fadeInUp");
+    });
 
-    // On click of hamburger menu
+    // On click of hamburger menu slide in/out menu content
     $( "#mobile-menu-button" ).click(function() {
         if($(".mobile-menu-item").hasClass("fadeOutLeft")) {
             $(".mobile-menu-item").removeClass("animated fadeOutLeft");
@@ -17,19 +23,11 @@ $(function(){
         }
     });
 
-    // On click of contact link
+    // On click of contact link wobble middle content
     $( ".link_contact" ).click(function() {
-        if($(".middle").hasClass("animated jello")) {
+        $(".middle").addClass("animated jello").one(animationEnd, function() {
             $(".middle").removeClass("animated jello");
-            $(".middle").addClass("animated tada");
-        }else if($(".middle").hasClass("animated tada")) {
-            $(".middle").removeClass("animated tada");
-            $(".middle").addClass("animated jello");
-        } else if($(".middle").hasClass("animated fadeInUp")) {
-            $(".middle").removeClass("animated fadeInUp");
-            $(".middle").addClass("animated tada");
-        }
+        });
     });
-
 
 });
