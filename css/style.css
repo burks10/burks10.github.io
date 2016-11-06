@@ -52,6 +52,8 @@ html{
 body{
 	/* Workaround for some mobile browsers */
 	min-height:100%;
+    /* Prevents horizontal scroll bar from showing during animations */
+    overflow-x:hidden;
 }
 
 h1 {
