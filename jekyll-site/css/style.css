@@ -127,6 +127,9 @@ a {
     padding-bottom: 30px;
     padding-left: 20px;
   }
+  .right-section {
+    float: none;
+  }
   .footer {
     width: 100%;
   }
