@@ -1,18 +1,19 @@
 ---
 layout: post
-title_1:  HUMBLE BEGINNINGS
-title_2: HELLO WORLD
-post_date: TUE 21 FEB 2017
-post_time: 21:56
+title_1:  "HUMBLE BEGINNINGS"
+title_2: "HELLO WORLD"
+post_date: "TUE 21 FEB 2017"
+post_time: "21:56"
+permalink: /blog/humble-beginnings
 ---
 
 I never would have thought I'd start my own blog, but with my final semester of school coming to a close and a new chapter in my life opening up, I decided to give it a stab. (In typical developer fashion of course.)
-
 It's about 8 O'clock on a Tuesday during reading week, and I finally got the theme of this blog the way I want. There's a bit more that I want to do, such as add in a sticky navbar and some contact links, but overall I think it's pretty good. Shout out to Goutham for the awesome mock up he/she posted on Dribble, you can check him/her out [here][dribble-link].
 Anyways, I wasn't really sure what to base this blog post on, but I figured why not talk about how I got into development in the first place.
 
 Rewinding back about 7 years now I was in grade 10 at Galt Collegiate Institute in downtown Cambridge. One of my good friends was taking an intro to programming course where he was learning [Turing][turing-link]. If there are any newbie programmers out there reading this, I highly suggest checking the language out. It's super beginner friendly and
 teaches you quite a bit about the general constructs of development. Anyways, my good friend was working on an assignment that he had for the course during our [MSIP][msip-link] period, and it happened to catch my eye. He had a red ball on a completely blank window and beside that was a few lines of what was essentially complete gibberish to me.
+
 The assignment tasked him with creating a program that made a ball bounce around the edges of the screen. I was completely intrigued. It amazed me that he had so much power over what the computer could do. Over the remainder of the period I sat watching him repeatedly typing lines, hitting run, then observing the output, until finally it was finished. There was one red ball moving at a constant velocity,
 and changing direction whenever it hit a wall. It was truly amazing to me at the time.
 

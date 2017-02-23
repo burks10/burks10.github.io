@@ -12,16 +12,16 @@
         <div class="red-line"></div>
           <h4 class="author-name weight-400">Anthony<span class="weight-400"> Burkholder</span></h4>
           <div class="social-icon-row">
-            <a href="https://github.com/burks10"><img class="social-icon" src="images/Github-s.png" alt=""></a>
-            <a href="https://www.linkedin.com/in/anthony-burkholder-64396998/"><img class="social-icon social-icon-spacing" src="images/Linkedin-s.png" alt=""></a>
-            <a href="https://www.youtube.com/user/compscistudio"><img class="social-icon" src="images/YouTube-s.png" alt=""></a>
+            <a href="https://github.com/burks10"><img class="social-icon" src="/images/Github-s.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/anthony-burkholder-64396998/"><img class="social-icon social-icon-spacing" src="/images/Linkedin-s.png" alt=""></a>
+            <a href="https://www.youtube.com/user/compscistudio"><img class="social-icon" src="/images/YouTube-s.png" alt=""></a>
           </div>
       </div>
 
       <!-- Right column -->
       <div class="right-section grid__col grid__col--9-of-12">
         <p class="p-blog-post">
-          {{ page.content }}
+          {{ content | remove: '<p>' | remove: '</p>'}}
         </p>
       </div>
 
