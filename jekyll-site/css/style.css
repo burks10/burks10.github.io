@@ -118,6 +118,28 @@ a {
   margin-left: 0px;
 }
 
+.left-arrow-button {
+  width: 25px;
+  height: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  right: 60px;
+  top: 22px;
+  float: right;
+}
+
+.right-arrow-button {
+  width: 25px;
+  height: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  right: 30px;
+  top: 22px;
+  float: right;
+}
+
 /* When the screen becomes smaller (phone/tablet) */
 @media (max-width: 700px) {
   .left-section {
