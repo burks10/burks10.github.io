@@ -3,7 +3,7 @@ layout: post
 title_1:  HUMBLE BEGINNINGS
 title_2: HELLO WORLD
 post_date: TUE 21 FEB 2017
-post_time: 21:56
+post_time: "21:56"
 ---
 
 I never would have thought I'd start my own blog, but with my final semester of school coming to a close and a new chapter in my life opening up, I decided to give it a stab. (In typical developer fashion of course.)

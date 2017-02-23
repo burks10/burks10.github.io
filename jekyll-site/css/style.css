@@ -118,6 +118,17 @@ a {
   margin-left: 0px;
 }
 
+.home-arrow-button {
+  width: 25px;
+  height: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  right: 90px;
+  top: 22px;
+  float: right;
+}
+
 .left-arrow-button {
   width: 25px;
   height: 25px;

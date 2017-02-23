@@ -3,7 +3,7 @@ layout: post
 title_1:  "HUMBLE BEGINNINGS"
 title_2: "HELLO WORLD"
 post_date: "TUE 21 FEB 2017"
-post_time: "21:56"
+post_time: "21:57a"
 permalink: /blog/humble-beginnings
 ---
 
