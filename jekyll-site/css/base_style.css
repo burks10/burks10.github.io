@@ -26,12 +26,27 @@ a {
     color: #F3745B;
 }
 
+.dark-header {
+  color: #484957;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Quicksand";
     color: white;
     margin: 0px;
     line-height: 1.7em;
     letter-spacing: 1px;
+}
+
+.button-primary {
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #F3745B;
+  color: #ffffff;
+  padding: 10px 50px 10px 50px;
+  border: none;
+  margin-top: 20px;
 }
 
 .red-line {
@@ -79,8 +94,9 @@ h1, h2, h3, h4, h5, h6 {
 .right-section {
     background-color: #ffffff;
     height: 100%;
-    padding: 0px;
     float: right;
+    padding: 0px;
+    padding-left: 12px;
 }
 
 .footer {
@@ -133,5 +149,9 @@ h1, h2, h3, h4, h5, h6 {
         padding-right: 2px;
         width: 40px;
         height: 40px;
+    }
+
+    .button-primary {
+      width: 100%;
     }
 }
