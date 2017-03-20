@@ -4,8 +4,10 @@ title_1: "ANTHONY"
 title_2: "BURKHOLDER"
 post_date: TUE 21 FEB 2017
 post_time: "21:56"
+css: home_style
 ---
 I'm a final year Computer Engineering student who loves to create new things and solve challenging problems.
+
 
 [dribble-link]: https://dribbble.com/shots/2421209-Blog-Post
 [turing-link]: https://en.wikipedia.org/wiki/Turing_(programming_language)
