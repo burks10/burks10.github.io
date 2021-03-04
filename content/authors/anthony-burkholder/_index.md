@@ -1,9 +1,8 @@
 ---
 title: Anthony Burkholder
 bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
-avatar: /images/dennis-brotzky.jpg
+  A KW based software developer with a borderline addiction to wrenching on and modifying cars.
+avatar: /images/anthony.jpg
 featured: true
 social:
   - title: unsplash
